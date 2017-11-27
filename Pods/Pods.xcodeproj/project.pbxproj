@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E146A6F8EA9D56AAAEB698DA1ACFC4D /* html_smartypants.c in Sources */ = {isa = PBXBuildFile; fileRef = 31922A2F052D026330EDAB619710975E /* html_smartypants.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0E2E0541E1AF7BA47339C7F9569EEC55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29107423DC84001EB94E4102C5D0CEF /* Foundation.framework */; };
+		154BD5E2FEBA1A4B4BF434BF5E080AAB /* UIWebView-Markdown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 891BEBC9913C990015EF2D0A90ABCCA7 /* UIWebView-Markdown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2022CBAB33B20BB3693F025603C70D9C /* sundown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 852B351735958DFC23F14B7A2EF9EA65 /* sundown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29251C71296AF27338D98D893799513C /* markdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 648AE85E090AC0B5B5265AD2D1540AEB /* markdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		314132DEB57D5DC86BC0D38BA9E22E3D /* sundown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D171334F72FFD73A27759989C03222 /* sundown-dummy.m */; };
+		39BBF4D982CF3975BD3A4B822AD1764D /* Pods-StaticSunDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 514D16E669C52B664A6D9B6648D2EF05 /* Pods-StaticSunDown-dummy.m */; };
+		47E772338B30C04FE58FCF05B58A1DDA /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = A0555CC88176B87329BD801612307C2F /* html.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6C3A096786B0F55F9D2C9707B7C958FD /* SundownWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9267B18722DA8350DEB4F08B51920B5D /* SundownWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F3E5AB35EA862C659C11A30D55B2E8C /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 7175CC5ACAD2F6CEC92458962EA1788E /* houdini_href_e.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7CAD31DF591BDEDB33B171491FABD4BB /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = D9E2D44F552C662D93F729DB042ABC48 /* stack.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7EA6AE4B66CB0BADD74AEEDB4B48638B /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = BF35053FFBD6D7113EB2020C467EBD4C /* stack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		854FDAAD25C2D059B801AAF48CC9206A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29107423DC84001EB94E4102C5D0CEF /* Foundation.framework */; };
+		8586291FAFD080A1151B9747B759D813 /* UIWebView+Markdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 59ED67E1536C5D3B582B6B75BE6FB9EA /* UIWebView+Markdown.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		98FD5FD9FDDD4F045903F821CC327EEC /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBE26454F8D9BDD4F695A20EA126D61 /* buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F3609AE70E366E6DF5804DB386E2D0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29107423DC84001EB94E4102C5D0CEF /* Foundation.framework */; };
+		A96916522998FC68612959B725AF23F5 /* autolink.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C09E13454CBF7E0DCE5F0C764365B6 /* autolink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6893F7E0B51BD4DE3C12A4469113CF3 /* html.h in Headers */ = {isa = PBXBuildFile; fileRef = 1109FF546858345EA25CA51E4526002E /* html.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA32AB3E1F762D1D10D66968FA37CEBC /* sundown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6528DA5FCC862116E1F73E70DD929EE /* sundown.framework */; };
+		CB688AE6966CC06A7F43A58A8B6C10DD /* UIWebView-Markdown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA87C4E49373F06E22E456ACB5C5174D /* UIWebView-Markdown-dummy.m */; };
+		E1BD4DC4C4E0BEE99DA6AAD626CFE10D /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 29B0F6DAFBBE96D497DE129B7302B94D /* buffer.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E5FD92F3280C936666127C36FD652466 /* html_blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C0720FDFB2AE51A965D9D75AAA9164 /* html_blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E66662C8078B4F050C563E75F0B36105 /* autolink.c in Sources */ = {isa = PBXBuildFile; fileRef = 96D78A82C70343DC1F4EA48B8DBCBB6C /* autolink.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EB22E92EFC3172488A3BBC8520B35A37 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = B91EF87BB287D4191E2B5AF69B7274DD /* houdini_html_e.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F442AC190DD3367F156D31533B7047C5 /* SundownWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FD828C8B5E9991AB610252E42C92A0F9 /* SundownWrapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F687423D5D17B723C0CA4C83D2CCE2E9 /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = C630CB234DAE43ED2485644C26C4D599 /* houdini.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA7151CD548C473956663A7134DF9308 /* Pods-StaticSunDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 666C8B6154A3C89892D71FB6992D7D34 /* Pods-StaticSunDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD51F867AF11476E02A6EE59E094C253 /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = E2F975D0D5ED8296D4274F85368A534E /* markdown.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FEC160F829A0FB6C0AE7C34ACC91110F /* UIWebView+Markdown.h in Headers */ = {isa = PBXBuildFile; fileRef = D6223A045B782310192FDE97629AE157 /* UIWebView+Markdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		465A0E3DFE981A6EF7CCE576F43FB137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79F8BA30F55A492050ECBF32DF7304AC;
+			remoteInfo = "UIWebView-Markdown";
+		};
+		5DD2BBC41096F35AEF170899A219F842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00B2BFC9E01D214D08CF1508A86DB5DA;
+			remoteInfo = sundown;
+		};
+		D13389487106E1C865584F47A93934FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00B2BFC9E01D214D08CF1508A86DB5DA;
+			remoteInfo = sundown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DBE26454F8D9BDD4F695A20EA126D61 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = src/buffer.h; sourceTree = "<group>"; };
+		1109FF546858345EA25CA51E4526002E /* html.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = html.h; path = html/html.h; sourceTree = "<group>"; };
+		1145340B55EFD80CB338B7A72537C0A5 /* UIWebView-Markdown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWebView-Markdown-prefix.pch"; sourceTree = "<group>"; };
+		13D7C935971B6281A074D89D8D3FC858 /* Pods-StaticSunDown-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StaticSunDown-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B053192447B2A4205C952618FE865E4 /* UIWebView-Markdown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "UIWebView-Markdown.modulemap"; sourceTree = "<group>"; };
+		1B40CF0A872C76FAE25029C36C653DB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29B0F6DAFBBE96D497DE129B7302B94D /* buffer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = buffer.c; path = src/buffer.c; sourceTree = "<group>"; };
+		31922A2F052D026330EDAB619710975E /* html_smartypants.c */ = {isa = PBXFileReference; includeInIndex = 1; name = html_smartypants.c; path = html/html_smartypants.c; sourceTree = "<group>"; };
+		38D171334F72FFD73A27759989C03222 /* sundown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "sundown-dummy.m"; sourceTree = "<group>"; };
+		49C0720FDFB2AE51A965D9D75AAA9164 /* html_blocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = html_blocks.h; path = src/html_blocks.h; sourceTree = "<group>"; };
+		4CBA9802A02D08E6EA1E78BBFFDCB47E /* sundown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sundown-prefix.pch"; sourceTree = "<group>"; };
+		4DEFC120221351433B43570871D5A468 /* UIWebView_Markdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIWebView_Markdown.framework; path = "UIWebView-Markdown.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		514D16E669C52B664A6D9B6648D2EF05 /* Pods-StaticSunDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StaticSunDown-dummy.m"; sourceTree = "<group>"; };
+		51AB85306C9781BF005E1CE136D4B228 /* Pods-StaticSunDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StaticSunDown.debug.xcconfig"; sourceTree = "<group>"; };
+		59ED67E1536C5D3B582B6B75BE6FB9EA /* UIWebView+Markdown.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Markdown.m"; sourceTree = "<group>"; };
+		5D0E7B8724922648A7897523FBFCF6F2 /* Pods_StaticSunDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StaticSunDown.framework; path = "Pods-StaticSunDown.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		648AE85E090AC0B5B5265AD2D1540AEB /* markdown.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = markdown.h; path = src/markdown.h; sourceTree = "<group>"; };
+		666C8B6154A3C89892D71FB6992D7D34 /* Pods-StaticSunDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StaticSunDown-umbrella.h"; sourceTree = "<group>"; };
+		6DC5DE4CCCEB42F860B894CC8C3ED462 /* Pods-StaticSunDown-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StaticSunDown-frameworks.sh"; sourceTree = "<group>"; };
+		7175CC5ACAD2F6CEC92458962EA1788E /* houdini_href_e.c */ = {isa = PBXFileReference; includeInIndex = 1; name = houdini_href_e.c; path = html/houdini_href_e.c; sourceTree = "<group>"; };
+		71DEBF7BFB9C67CE440856D93814A43C /* sundown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = sundown.modulemap; sourceTree = "<group>"; };
+		80A5CEA199233EC9BEEC7D5346FC99FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D8EAC2933F1B13B005EBCE61CE7E00 /* sundown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sundown.xcconfig; sourceTree = "<group>"; };
+		852B351735958DFC23F14B7A2EF9EA65 /* sundown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sundown-umbrella.h"; sourceTree = "<group>"; };
+		891BEBC9913C990015EF2D0A90ABCCA7 /* UIWebView-Markdown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWebView-Markdown-umbrella.h"; sourceTree = "<group>"; };
+		9267B18722DA8350DEB4F08B51920B5D /* SundownWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SundownWrapper.h; path = src/SundownWrapper.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96D78A82C70343DC1F4EA48B8DBCBB6C /* autolink.c */ = {isa = PBXFileReference; includeInIndex = 1; name = autolink.c; path = src/autolink.c; sourceTree = "<group>"; };
+		9DADB3E7371E2ED8EF6992B3BDFD033E /* UIWebView-Markdown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIWebView-Markdown.xcconfig"; sourceTree = "<group>"; };
+		A0555CC88176B87329BD801612307C2F /* html.c */ = {isa = PBXFileReference; includeInIndex = 1; name = html.c; path = html/html.c; sourceTree = "<group>"; };
+		A3F7F3B5E6C01B7EC7159B320361BB4E /* Pods-StaticSunDown-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StaticSunDown-acknowledgements.plist"; sourceTree = "<group>"; };
+		B29107423DC84001EB94E4102C5D0CEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B91EF87BB287D4191E2B5AF69B7274DD /* houdini_html_e.c */ = {isa = PBXFileReference; includeInIndex = 1; name = houdini_html_e.c; path = html/houdini_html_e.c; sourceTree = "<group>"; };
+		BA87C4E49373F06E22E456ACB5C5174D /* UIWebView-Markdown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWebView-Markdown-dummy.m"; sourceTree = "<group>"; };
+		BF35053FFBD6D7113EB2020C467EBD4C /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = src/stack.h; sourceTree = "<group>"; };
+		C630CB234DAE43ED2485644C26C4D599 /* houdini.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = houdini.h; path = html/houdini.h; sourceTree = "<group>"; };
+		C8C09E13454CBF7E0DCE5F0C764365B6 /* autolink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = autolink.h; path = src/autolink.h; sourceTree = "<group>"; };
+		CB204428BD11483D4655154592EE9A6A /* Pods-StaticSunDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StaticSunDown.release.xcconfig"; sourceTree = "<group>"; };
+		D6223A045B782310192FDE97629AE157 /* UIWebView+Markdown.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Markdown.h"; sourceTree = "<group>"; };
+		D9E2D44F552C662D93F729DB042ABC48 /* stack.c */ = {isa = PBXFileReference; includeInIndex = 1; name = stack.c; path = src/stack.c; sourceTree = "<group>"; };
+		E2F975D0D5ED8296D4274F85368A534E /* markdown.c */ = {isa = PBXFileReference; includeInIndex = 1; name = markdown.c; path = src/markdown.c; sourceTree = "<group>"; };
+		E307E9573EAAE2C16D5300584EDDC227 /* Pods-StaticSunDown-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StaticSunDown-resources.sh"; sourceTree = "<group>"; };
+		E6528DA5FCC862116E1F73E70DD929EE /* sundown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = sundown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A4DFBEAFD3D273F4755292E6D4EF09 /* sundown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = sundown.framework; path = sundown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB84178C29F3C703FE31152F113F95BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD672C60B3EEC0FB715D18FE5E7D28D2 /* Pods-StaticSunDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-StaticSunDown.modulemap"; sourceTree = "<group>"; };
+		FD828C8B5E9991AB610252E42C92A0F9 /* SundownWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SundownWrapper.m; path = src/SundownWrapper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BB660ED0F7FC452AE561162A6A98CB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3609AE70E366E6DF5804DB386E2D0B /* Foundation.framework in Frameworks */,
+				BA32AB3E1F762D1D10D66968FA37CEBC /* sundown.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBE27FAAF418EB4D0B592ECCAF83D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854FDAAD25C2D059B801AAF48CC9206A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7D113360904AA1B0B21B198B61C1D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2E0541E1AF7BA47339C7F9569EEC55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06799DA5E468CED75482B6D0ECC85B10 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B29107423DC84001EB94E4102C5D0CEF /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		271460021707750D77BB1AA9AC34A686 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80A5CEA199233EC9BEEC7D5346FC99FF /* Info.plist */,
+				71DEBF7BFB9C67CE440856D93814A43C /* sundown.modulemap */,
+				82D8EAC2933F1B13B005EBCE61CE7E00 /* sundown.xcconfig */,
+				38D171334F72FFD73A27759989C03222 /* sundown-dummy.m */,
+				4CBA9802A02D08E6EA1E78BBFFDCB47E /* sundown-prefix.pch */,
+				852B351735958DFC23F14B7A2EF9EA65 /* sundown-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/sundown";
+			sourceTree = "<group>";
+		};
+		2BD32ACB6DC3D3AD67C207F56935F714 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8162E1634FBFFA154C1B72B60922677E /* Pods-StaticSunDown */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		388F1815ACB5BD4E4A5B3C301B0C362A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0B8846450DE4D92E0D177BC9F168C23 /* sundown */,
+				C7F82B5DCC252C5B7B97E44EA0363D8D /* UIWebView-Markdown */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		67CD4A4F8FC47D220F3210CBF8B2B44B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6528DA5FCC862116E1F73E70DD929EE /* sundown.framework */,
+				06799DA5E468CED75482B6D0ECC85B10 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74A9B8A291AE72F0EFE96553BE434B80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D0E7B8724922648A7897523FBFCF6F2 /* Pods_StaticSunDown.framework */,
+				F6A4DFBEAFD3D273F4755292E6D4EF09 /* sundown.framework */,
+				4DEFC120221351433B43570871D5A468 /* UIWebView_Markdown.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				67CD4A4F8FC47D220F3210CBF8B2B44B /* Frameworks */,
+				388F1815ACB5BD4E4A5B3C301B0C362A /* Pods */,
+				74A9B8A291AE72F0EFE96553BE434B80 /* Products */,
+				2BD32ACB6DC3D3AD67C207F56935F714 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8162E1634FBFFA154C1B72B60922677E /* Pods-StaticSunDown */ = {
+			isa = PBXGroup;
+			children = (
+				FB84178C29F3C703FE31152F113F95BC /* Info.plist */,
+				FD672C60B3EEC0FB715D18FE5E7D28D2 /* Pods-StaticSunDown.modulemap */,
+				13D7C935971B6281A074D89D8D3FC858 /* Pods-StaticSunDown-acknowledgements.markdown */,
+				A3F7F3B5E6C01B7EC7159B320361BB4E /* Pods-StaticSunDown-acknowledgements.plist */,
+				514D16E669C52B664A6D9B6648D2EF05 /* Pods-StaticSunDown-dummy.m */,
+				6DC5DE4CCCEB42F860B894CC8C3ED462 /* Pods-StaticSunDown-frameworks.sh */,
+				E307E9573EAAE2C16D5300584EDDC227 /* Pods-StaticSunDown-resources.sh */,
+				666C8B6154A3C89892D71FB6992D7D34 /* Pods-StaticSunDown-umbrella.h */,
+				51AB85306C9781BF005E1CE136D4B228 /* Pods-StaticSunDown.debug.xcconfig */,
+				CB204428BD11483D4655154592EE9A6A /* Pods-StaticSunDown.release.xcconfig */,
+			);
+			name = "Pods-StaticSunDown";
+			path = "Target Support Files/Pods-StaticSunDown";
+			sourceTree = "<group>";
+		};
+		A0B8846450DE4D92E0D177BC9F168C23 /* sundown */ = {
+			isa = PBXGroup;
+			children = (
+				96D78A82C70343DC1F4EA48B8DBCBB6C /* autolink.c */,
+				C8C09E13454CBF7E0DCE5F0C764365B6 /* autolink.h */,
+				29B0F6DAFBBE96D497DE129B7302B94D /* buffer.c */,
+				0DBE26454F8D9BDD4F695A20EA126D61 /* buffer.h */,
+				C630CB234DAE43ED2485644C26C4D599 /* houdini.h */,
+				7175CC5ACAD2F6CEC92458962EA1788E /* houdini_href_e.c */,
+				B91EF87BB287D4191E2B5AF69B7274DD /* houdini_html_e.c */,
+				A0555CC88176B87329BD801612307C2F /* html.c */,
+				1109FF546858345EA25CA51E4526002E /* html.h */,
+				49C0720FDFB2AE51A965D9D75AAA9164 /* html_blocks.h */,
+				31922A2F052D026330EDAB619710975E /* html_smartypants.c */,
+				E2F975D0D5ED8296D4274F85368A534E /* markdown.c */,
+				648AE85E090AC0B5B5265AD2D1540AEB /* markdown.h */,
+				D9E2D44F552C662D93F729DB042ABC48 /* stack.c */,
+				BF35053FFBD6D7113EB2020C467EBD4C /* stack.h */,
+				9267B18722DA8350DEB4F08B51920B5D /* SundownWrapper.h */,
+				FD828C8B5E9991AB610252E42C92A0F9 /* SundownWrapper.m */,
+				271460021707750D77BB1AA9AC34A686 /* Support Files */,
+			);
+			name = sundown;
+			path = sundown;
+			sourceTree = "<group>";
+		};
+		ADE160DE0791B4BA02C4241484B4A618 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B40CF0A872C76FAE25029C36C653DB6 /* Info.plist */,
+				1B053192447B2A4205C952618FE865E4 /* UIWebView-Markdown.modulemap */,
+				9DADB3E7371E2ED8EF6992B3BDFD033E /* UIWebView-Markdown.xcconfig */,
+				BA87C4E49373F06E22E456ACB5C5174D /* UIWebView-Markdown-dummy.m */,
+				1145340B55EFD80CB338B7A72537C0A5 /* UIWebView-Markdown-prefix.pch */,
+				891BEBC9913C990015EF2D0A90ABCCA7 /* UIWebView-Markdown-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIWebView-Markdown";
+			sourceTree = "<group>";
+		};
+		C7F82B5DCC252C5B7B97E44EA0363D8D /* UIWebView-Markdown */ = {
+			isa = PBXGroup;
+			children = (
+				D6223A045B782310192FDE97629AE157 /* UIWebView+Markdown.h */,
+				59ED67E1536C5D3B582B6B75BE6FB9EA /* UIWebView+Markdown.m */,
+				ADE160DE0791B4BA02C4241484B4A618 /* Support Files */,
+			);
+			name = "UIWebView-Markdown";
+			path = "UIWebView-Markdown";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01C918A69CB9AD6ACA24CB23AED14356 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7151CD548C473956663A7134DF9308 /* Pods-StaticSunDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57294D4B923A4B9D785569982A0237C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC160F829A0FB6C0AE7C34ACC91110F /* UIWebView+Markdown.h in Headers */,
+				154BD5E2FEBA1A4B4BF434BF5E080AAB /* UIWebView-Markdown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F4C76DEE025EADD1D7BF89CA8B1719 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96916522998FC68612959B725AF23F5 /* autolink.h in Headers */,
+				98FD5FD9FDDD4F045903F821CC327EEC /* buffer.h in Headers */,
+				F687423D5D17B723C0CA4C83D2CCE2E9 /* houdini.h in Headers */,
+				B6893F7E0B51BD4DE3C12A4469113CF3 /* html.h in Headers */,
+				E5FD92F3280C936666127C36FD652466 /* html_blocks.h in Headers */,
+				29251C71296AF27338D98D893799513C /* markdown.h in Headers */,
+				7EA6AE4B66CB0BADD74AEEDB4B48638B /* stack.h in Headers */,
+				2022CBAB33B20BB3693F025603C70D9C /* sundown-umbrella.h in Headers */,
+				6C3A096786B0F55F9D2C9707B7C958FD /* SundownWrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00B2BFC9E01D214D08CF1508A86DB5DA /* sundown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB082A4BF932B5C4ADE7ABB7BCA0D51D /* Build configuration list for PBXNativeTarget "sundown" */;
+			buildPhases = (
+				7DCDFB2044ED4BE6BA5217C0C9234D3F /* Sources */,
+				6DBE27FAAF418EB4D0B592ECCAF83D92 /* Frameworks */,
+				D1F4C76DEE025EADD1D7BF89CA8B1719 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sundown;
+			productName = sundown;
+			productReference = F6A4DFBEAFD3D273F4755292E6D4EF09 /* sundown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79F8BA30F55A492050ECBF32DF7304AC /* UIWebView-Markdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6936DB1521D4948DDED465C49B3B3E8 /* Build configuration list for PBXNativeTarget "UIWebView-Markdown" */;
+			buildPhases = (
+				31A685E47D365BF5CA636094863D0180 /* Sources */,
+				5BB660ED0F7FC452AE561162A6A98CB7 /* Frameworks */,
+				57294D4B923A4B9D785569982A0237C7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7830E93016076DAF5260061DC6CA041D /* PBXTargetDependency */,
+			);
+			name = "UIWebView-Markdown";
+			productName = "UIWebView-Markdown";
+			productReference = 4DEFC120221351433B43570871D5A468 /* UIWebView_Markdown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D434BB4FCF3B783B59EDEC54D4A9DFE8 /* Pods-StaticSunDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991426236CDB7CCF383C2752F54DF368 /* Build configuration list for PBXNativeTarget "Pods-StaticSunDown" */;
+			buildPhases = (
+				BEB492C37BCFCE535AB77564875FE595 /* Sources */,
+				AE7D113360904AA1B0B21B198B61C1D1 /* Frameworks */,
+				01C918A69CB9AD6ACA24CB23AED14356 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11EEB48C6DC2D29B40F7EF74852759CE /* PBXTargetDependency */,
+				43801EADF7CEEA6C40C68F54B1C7A60D /* PBXTargetDependency */,
+			);
+			name = "Pods-StaticSunDown";
+			productName = "Pods-StaticSunDown";
+			productReference = 5D0E7B8724922648A7897523FBFCF6F2 /* Pods_StaticSunDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 74A9B8A291AE72F0EFE96553BE434B80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D434BB4FCF3B783B59EDEC54D4A9DFE8 /* Pods-StaticSunDown */,
+				00B2BFC9E01D214D08CF1508A86DB5DA /* sundown */,
+				79F8BA30F55A492050ECBF32DF7304AC /* UIWebView-Markdown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31A685E47D365BF5CA636094863D0180 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8586291FAFD080A1151B9747B759D813 /* UIWebView+Markdown.m in Sources */,
+				CB688AE6966CC06A7F43A58A8B6C10DD /* UIWebView-Markdown-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DCDFB2044ED4BE6BA5217C0C9234D3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E66662C8078B4F050C563E75F0B36105 /* autolink.c in Sources */,
+				E1BD4DC4C4E0BEE99DA6AAD626CFE10D /* buffer.c in Sources */,
+				6F3E5AB35EA862C659C11A30D55B2E8C /* houdini_href_e.c in Sources */,
+				EB22E92EFC3172488A3BBC8520B35A37 /* houdini_html_e.c in Sources */,
+				47E772338B30C04FE58FCF05B58A1DDA /* html.c in Sources */,
+				0E146A6F8EA9D56AAAEB698DA1ACFC4D /* html_smartypants.c in Sources */,
+				FD51F867AF11476E02A6EE59E094C253 /* markdown.c in Sources */,
+				7CAD31DF591BDEDB33B171491FABD4BB /* stack.c in Sources */,
+				314132DEB57D5DC86BC0D38BA9E22E3D /* sundown-dummy.m in Sources */,
+				F442AC190DD3367F156D31533B7047C5 /* SundownWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB492C37BCFCE535AB77564875FE595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BBF4D982CF3975BD3A4B822AD1764D /* Pods-StaticSunDown-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11EEB48C6DC2D29B40F7EF74852759CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIWebView-Markdown";
+			target = 79F8BA30F55A492050ECBF32DF7304AC /* UIWebView-Markdown */;
+			targetProxy = 465A0E3DFE981A6EF7CCE576F43FB137 /* PBXContainerItemProxy */;
+		};
+		43801EADF7CEEA6C40C68F54B1C7A60D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sundown;
+			target = 00B2BFC9E01D214D08CF1508A86DB5DA /* sundown */;
+			targetProxy = D13389487106E1C865584F47A93934FD /* PBXContainerItemProxy */;
+		};
+		7830E93016076DAF5260061DC6CA041D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sundown;
+			target = 00B2BFC9E01D214D08CF1508A86DB5DA /* sundown */;
+			targetProxy = 5DD2BBC41096F35AEF170899A219F842 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1394AF5088330CA4946A28937B0993DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82D8EAC2933F1B13B005EBCE61CE7E00 /* sundown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/sundown/sundown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/sundown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/sundown/sundown.modulemap";
+				PRODUCT_NAME = sundown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3A71FA2C026AD83163043AFE014BE69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51AB85306C9781BF005E1CE136D4B228 /* Pods-StaticSunDown.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StaticSunDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StaticSunDown/Pods-StaticSunDown.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StaticSunDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E48E10892E5187E3430979B758B6113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DADB3E7371E2ED8EF6992B3BDFD033E /* UIWebView-Markdown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIWebView-Markdown/UIWebView-Markdown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIWebView-Markdown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIWebView-Markdown/UIWebView-Markdown.modulemap";
+				PRODUCT_NAME = UIWebView_Markdown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5026C0C90158362C8E51F07208860815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB204428BD11483D4655154592EE9A6A /* Pods-StaticSunDown.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StaticSunDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StaticSunDown/Pods-StaticSunDown.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StaticSunDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62D1E6D3DFBA9C2E067CB421F60B2B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82D8EAC2933F1B13B005EBCE61CE7E00 /* sundown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/sundown/sundown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/sundown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/sundown/sundown.modulemap";
+				PRODUCT_NAME = sundown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8C241EC5A48A563AC963591FAB8072C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DADB3E7371E2ED8EF6992B3BDFD033E /* UIWebView-Markdown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIWebView-Markdown/UIWebView-Markdown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIWebView-Markdown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIWebView-Markdown/UIWebView-Markdown.modulemap";
+				PRODUCT_NAME = UIWebView_Markdown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
+				98F29E7567052F62660DDD7069ADF73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991426236CDB7CCF383C2752F54DF368 /* Build configuration list for PBXNativeTarget "Pods-StaticSunDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A71FA2C026AD83163043AFE014BE69D /* Debug */,
+				5026C0C90158362C8E51F07208860815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6936DB1521D4948DDED465C49B3B3E8 /* Build configuration list for PBXNativeTarget "UIWebView-Markdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C241EC5A48A563AC963591FAB8072C0 /* Debug */,
+				3E48E10892E5187E3430979B758B6113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB082A4BF932B5C4ADE7ABB7BCA0D51D /* Build configuration list for PBXNativeTarget "sundown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D1E6D3DFBA9C2E067CB421F60B2B8D /* Debug */,
+				1394AF5088330CA4946A28937B0993DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module UIWebView_Markdown {
+  umbrella header "UIWebView-Markdown-umbrella.h"
+
+  export *
+  module * { export * }
+}

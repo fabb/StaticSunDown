@@ -1,0 +1,6 @@
+framework module Pods_StaticSunDown {
+  umbrella header "Pods-StaticSunDown-umbrella.h"
+
+  export *
+  module * { export * }
+}
